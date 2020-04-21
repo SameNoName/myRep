@@ -1,7 +1,7 @@
 import QtQuick 2.12
 import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
-
+import QtQuick.Layouts 1.12
 Window {
     visible: true
     width: 320
@@ -22,17 +22,18 @@ Window {
             name: "Andrei3"
         }
     }
-
-    ListView {
-        id: list
+    ColumnLayout {
         anchors.fill: parent
-        model: contactsModel
-        delegate: ContactItem {
-            text: name
-            selected: list.currentIndex === index
-            onLeftClick: {
-                list.currentIndex = index
+        MainToolBar {
+            Layout.fillWidth: true
+            onNewItem: {
+                contactsModel.append({name: text});
             }
+        }
+        ContactList {
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            model: contactsModel
         }
     }
 }
