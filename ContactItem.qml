@@ -6,7 +6,7 @@ Rectangle {
     id: me
     property alias icon: icon.source
     property alias text: label.text
-    width: parent.width
+    width: 90000000
     height: 60
     RowLayout{
         anchors.fill: parent
@@ -22,6 +22,7 @@ Rectangle {
         }
         Label {
             id: label
+            text: "afsdsag"
             Layout.fillWidth: true
             font.bold: true
         }
