@@ -15,7 +15,7 @@ Rectangle {
          if (selected)
              return "lightblue"
          if (area.containsMouse)
-             return "grey"
+             return "#F0FFFF"
          return "white"
     }
     RowLayout{

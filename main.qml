@@ -7,8 +7,13 @@ Window {
     width: 320
     height: 480
     title: qsTr("Контакты")
+    color: "#4682B4"
     ListModel {
         id: contactsModel
+        ListElement {
+            name: "Антон"
+            source: "icons/ze.png"
+        }
         ListElement {
             name: "Иннокентий"
             source: "icons/ghana.png"
@@ -32,10 +37,6 @@ Window {
         ListElement {
             name: "Святослав"
             source: "icons/ricardo.png"
-        }
-        ListElement {
-            name: "Гений29"
-            source: "icons/ze.png"
         }
     }
     ColumnLayout {
