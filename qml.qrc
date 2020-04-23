@@ -6,5 +6,12 @@
         <file>ContactItem.qml</file>
         <file>ContactList.qml</file>
         <file>MainToolBar.qml</file>
+        <file>icons/ghana.png</file>
+        <file>icons/goblin.png</file>
+        <file>icons/kappa.png</file>
+        <file>icons/maestro.png</file>
+        <file>icons/papich.png</file>
+        <file>icons/ricardo.png</file>
+        <file>icons/ze.png</file>
     </qresource>
 </RCC>

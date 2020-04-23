@@ -10,16 +10,32 @@ Window {
     ListModel {
         id: contactsModel
         ListElement {
-            name: "Andrei"
+            name: "Иннокентий"
+            source: "icons/ghana.png"
         }
         ListElement {
-            name: "Andrei1"
+            name: "Дмитрий"
+            source: "icons/goblin.png"
         }
         ListElement {
-            name: "Andrei2"
+            name: "Иван"
+            source: "icons/kappa.png"
         }
         ListElement {
-            name: "Andrei3"
+            name: "Евгений"
+            source: "icons/maestro.png"
+        }
+        ListElement {
+            name: "Виталий"
+            source: "icons/papich.png"
+        }
+        ListElement {
+            name: "Святослав"
+            source: "icons/ricardo.png"
+        }
+        ListElement {
+            name: "Гений29"
+            source: "icons/ze.png"
         }
     }
     ColumnLayout {
