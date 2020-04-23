@@ -32,8 +32,11 @@ Rectangle {
         }
         Label {
             id: label
+            text: "ttttttttttttttttt"
+            font.family: "Verdana"
+            bottomPadding: 20
+            font.pointSize: 10
             Layout.fillWidth: true
-            font.bold: true
         }
     }
     MouseArea {
