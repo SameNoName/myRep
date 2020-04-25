@@ -29,13 +29,16 @@ Rectangle {
             Layout.fillHeight: true
             Layout.preferredWidth: height
             Layout.margins: 7
+
         }
         Label {
             id: label
+            color: "#00276e"
             text: "ttttttttttttttttt"
+            font.weight: Font.DemiBold
             font.family: "Verdana"
             bottomPadding: 20
-            font.pointSize: 10
+            font.pointSize: 9
             Layout.fillWidth: true
         }
     }
